@@ -1,3 +1,2 @@
 def getTotalBudget(people):
-    pass
-    '''Your amazing code here'''
+    return sum([somebody['budget'] for somebody in people])
